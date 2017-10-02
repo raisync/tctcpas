@@ -1,0 +1,12 @@
+/*
+	Theme Name: TCT
+	Theme URI: Chameleon
+	Author: Ryan Abcede
+	Author URI: https://github.com/raisync
+  	Template: Chameleon
+	Description: Chameleon child theme
+	Version: 1.0.0
+	Tags: custom-theme, activity, TCT, child-theme
+*/
+@import url("../Chameleon/style.css");
+@import url("../Chameleon/src");
