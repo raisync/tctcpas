@@ -1,2 +1,2 @@
-username: admin
-password: (DYb1&zXuzDk8MvKRk
+<strong>username:</strong> admin <br>
+<strong>password:</strong> (DYb1&zXuzDk8MvKRk

@@ -4,4 +4,5 @@
 		wp_enqueque_style( 'parent_style_sheet', get_template_directory_uri()."/style.css" );
 		wp_enqueque_style( 'child_style_sheet', get_stylesheet_directory_uri()."/style.css", array( 'parent_style_sheet' ) );
 	}
- ?>
+
+	add_filter( 'gform_enable_field_label_visibility_settings', '__return_true' );
