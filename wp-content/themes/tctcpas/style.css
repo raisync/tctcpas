@@ -27,6 +27,7 @@ body {
 
 #content {
 	background: none;
+	padding: 20px 100px 20px 100px;
 }
 
 #et-control-panel {
@@ -88,4 +89,18 @@ h2 {
 
 .center {
 	text-align: center;
+}
+
+.button-center {
+	display: list-item;
+	vertical-align: middle;
+}
+
+.btnContact {
+	padding-top: 30px;
+}
+
+.pad30 {
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
