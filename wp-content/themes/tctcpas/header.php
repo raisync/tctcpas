@@ -25,7 +25,7 @@
 <body <?php body_class(); ?>>
 	<?php do_action('et_header_top'); ?>
 	<div id="container">
-		<div class="et_pb_column et_pb_column_4_4 et_pb_column_0">
+		<div class="ulo">
 			<div class="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_center header-content et_pb_text_0">
 				
 				<h1 style="text-align: center;">TCT &amp; Associates, CPAs</h1>

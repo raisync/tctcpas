@@ -10,8 +10,10 @@
 					<div class="col-right">
 						Social Networking Sites
 					</div>
+					<br class="clear" />
 				</div>
 			</footer>
+
 	<?php wp_footer(); ?>
 
 <!-- closing tag -->

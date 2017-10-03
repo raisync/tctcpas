@@ -22,6 +22,7 @@ body {
 	width: 100%;
 	box-shadow: none;
 	border-radius: 0;
+	background: none;
 }
 
 #content {
@@ -49,20 +50,42 @@ body {
 }
 
 .topFoot {
+	padding: 20px 100px 20px 100px;
 	background: #2D2D2D;
     font-size: 14px;
 }
 
 .topFoot a {
     color: #BBBBBB;
+    padding-right: 20px;
+}
+
+.topFoot a:hover {
+	text-decoration: none;
 }
 
 .botFoot {
+	padding: 20px 100px 20px 100px;
 	background: #171717;
     font-size: 14px;
-    padding-right: 22px;
 }
 
-.botFoot a {
-	color: #666666;
+.header {
+	background: red;
+}
+
+.slides {
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
+h2 {
+	text-align: center;
+}
+
+.center {
+	text-align: center;
 }
