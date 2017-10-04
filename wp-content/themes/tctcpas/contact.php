@@ -1,9 +1,9 @@
-<div>
-	<div class="topCon center pad30">
+<div id="contactphp">
+	<div class="topCon center pad21">
 		<h2>CONTACT US</h2>
 		We are looking forward to hear from you
 	</div>
-	<div class="lowCon row pad30">
+	<div class="lowCon row pad21">
 		<div class="col-md-6">
 			Contact Form
 		</div>
@@ -14,6 +14,5 @@
 			Office Phone: +63 917 707 2037
 			Email: melanie@tctcpas.com</p>
 		</div>
-		<div class="clear"></div>
 	</div>
 </div>

@@ -12,8 +12,16 @@
 @import url("../Chameleon/src");
 @import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 
-body {
-	padding: 0;
+/** {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}*/
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
 }
 
 #container {
@@ -27,7 +35,6 @@ body {
 
 #content {
 	background: none;
-	padding: 20px 100px 20px 100px;
 }
 
 #et-control-panel {
@@ -51,7 +58,6 @@ body {
 }
 
 .topFoot {
-	padding: 20px 100px 20px 100px;
 	background: #2D2D2D;
     font-size: 14px;
 }
@@ -66,7 +72,6 @@ body {
 }
 
 .botFoot {
-	padding: 20px 100px 20px 100px;
 	background: #171717;
     font-size: 14px;
 }
@@ -100,7 +105,52 @@ h2 {
 	padding-top: 30px;
 }
 
+.pad20 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 .pad30 {
 	padding-top: 30px;
 	padding-bottom: 30px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    color: #6495ed;
+    border: 3px solid;
+}
+
+#servicesphp {
+	background: white;
+}
+
+.topPart {
+	background: #01447D;
+	color: white;
+}
+
+.lowPart {
+	background-image: url("images/Partners-bg1-min.jpg");
+	color: white;
+}
+
+.lowPart strong {
+	color: white;
+}
+
+.topCon {
+	background: #01447D;
+	color: white;
+    margin-right: -48px;
+    margin-left: -48px;
+}
+
+.lowCon {
+	background-image: url("images/contact-BG.jpg");
+	color: white;
+}
+
+.pad21 {
+	padding: 20px 100px 20px 100px;
 }
