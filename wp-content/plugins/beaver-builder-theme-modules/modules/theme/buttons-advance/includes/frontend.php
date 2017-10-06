@@ -15,7 +15,7 @@ $output .= '<div id="buttons">';
 
             for($i = 0; $i < count($settings->items); $i++) : if(!is_object($settings->items[$i])) continue;
                 
-                $output .= '<a href="'.$settings->items[$i]->button_link.'" class="button-link">';
+                $output .= '<a href="'.$settings->items[$i]->link.'" class="button-link">';
                     $output .= '<div class="col-md-'.$settings->columns.' button">';
                     $output .= '<div class="button-item">';
                         $output .= '<div class="button-item-'.$i.' button-text">';

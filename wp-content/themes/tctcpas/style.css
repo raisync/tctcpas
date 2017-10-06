@@ -27,7 +27,7 @@ html, body {
 #container {
 	margin: 0;
 	padding: 0;
-	width: 100%;
+	width: 100% !important;
 	box-shadow: none;
 	border-radius: 0;
 	background: none;
@@ -152,5 +152,55 @@ h2 {
 }
 
 .pad21 {
-	padding: 20px 100px 20px 100px;
+	padding: 20px 100px;
+}
+
+.textBeforePartners {
+	text-align: left !important;
+	padding-bottom: 0;
+}
+
+img.feats {
+	display: block !important;
+}
+
+figure.fig {
+	float: left !important;
+}
+
+figcaption.figcap {
+	margin-left: 150px !important;
+}
+
+.figcap ul {
+	margin-left: 20px !important;
+}
+
+@media screen and (max-width: 699px) {
+	img.feats {
+    	display: block;
+    	margin: 0 !important;
+    	text-align: center !important;
+	}
+
+	div.fl-rich-text {
+		text-align: center !important;
+	}
+
+	.textBeforePartners {
+		padding-bottom: 0;
+	}
+
+	.fl-rich-text p {
+		padding: 0;
+		line-height: 200%;
+	}
+
+	div.fl-col-content.fl-node-content {
+		padding: 0px 0px 5px 0px;
+	}
+
+	#head {
+		background-image: none;
+	}
 }
