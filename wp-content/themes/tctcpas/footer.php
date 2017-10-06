@@ -7,8 +7,14 @@
 					<div class="col-left">
 						Design and Developed by Syntactics Inc.
 					</div>
-					<div class="col-right">
-						Social Networking Sites
+					<div class="col-right icons">
+						<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						&nbsp;
+						<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+						&nbsp;
+						<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+						&nbsp;
+						<a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a>
 					</div>
 					<br class="clear" />
 				</div>

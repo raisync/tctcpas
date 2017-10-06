@@ -176,7 +176,17 @@ figcaption.figcap {
 	margin-left: 20px !important;
 }
 
-@media screen and (max-width: 699px) {
+.icons {
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.icons a {
+	text-decoration: none;
+	color: inherit;
+}
+
+@media screen and (max-width: 1100px) {
 	img.feats {
     	display: block;
     	margin: 0 !important;
@@ -200,7 +210,80 @@ figcaption.figcap {
 		padding: 0px 0px 5px 0px;
 	}
 
-	#head {
+	#head div {
 		background-image: none;
 	}
+
+	.topFoot {
+		float: none;
+	    text-align: center;
+	    padding: 20px;
+	}
+
+	.botFoot {
+		padding: 10px 0px 0px 0px;
+	}
+
+	.botFoot div {
+		float: none;
+	    text-align: center;
+	}
+
+	.icons {
+		font-size: 18px;
+	}
+
+	#gform_fields_1 {
+		text-align: center;
+	}
+
+	.gform_footer {
+		text-align: center;
+		padding-top: 0;
+	}
+
+	#buttons {
+		margin: 0px 30px;
+	}
+
+	.figcap {
+		padding: 0 !important;
+	}
+
+	figcaption {
+		line-height: 150% !important;
+	}
+
+	/*		   SLIDER
+	___________________________*/
+	#slide-1-layer-1 {
+		outline: 1px solid red;
+	}
+
+	#slide-1-layer-5 {
+		outline: 1px solid red;
+	}
+
+	#slide-1-layer-6 {
+		outline: 1px solid red;
+	}
+
+	#slide-1-layer-7 {
+		outline: 1px solid red;
+	}
+
+	/* contact number ang span	*/
+	#slide-1-layer-8 span {
+		font-size: 16px;
+	}
+
+	#slide-1-layer-8 {
+		outline: 1px solid red;
+	}
+
+	/* Button */
+	#slide-1-layer-9 {
+		outline: 1px solid red;
+	}
+	/*_________________________*/
 }
