@@ -257,7 +257,7 @@ figcaption.figcap {
 
 	/*		   SLIDER
 	___________________________*/
-	#slide-1-layer-1 {
+	/*#slide-1-layer-1 {
 		outline: 1px solid red;
 	}
 
@@ -273,7 +273,6 @@ figcaption.figcap {
 		outline: 1px solid red;
 	}
 
-	/* contact number ang span	*/
 	#slide-1-layer-8 span {
 		font-size: 16px;
 	}
@@ -282,9 +281,8 @@ figcaption.figcap {
 		outline: 1px solid red;
 	}
 
-	/* Button */
 	#slide-1-layer-9 {
 		outline: 1px solid red;
-	}
+	}*/
 	/*_________________________*/
 }
