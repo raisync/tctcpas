@@ -252,6 +252,7 @@ figcaption.figcap {
 
 	figcaption {
 		line-height: 150% !important;
+		display: block !important;
 	}
 
 	/*		   SLIDER
