@@ -30,12 +30,19 @@
 </head>
 <body <?php body_class(); ?>>
 	<?php do_action('et_header_top'); ?>
-	<div id="container">
-		<!-- <div class="ulo">
-			<div class="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_center header-content et_pb_text_0">
-				
-				<h1 style="text-align: center;">TCT &amp; Associates, CPAs</h1>
-				<p style="text-align: center;"><span class="et_pb_fullwidth_header_subhead">Certified Public Accountants</span></p>
-
+	<header id="header" style="background-image: url('http://localhost/tct/wp-content/uploads/2017/10/header-bg.png');">
+		<div id="container">
+			<div class="ulo">
+				<div class="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_center header-content et_pb_text_0">
+					<h1 style="text-align: center;">TCT &amp; Associates, CPAs</h1>
+					<p style="text-align: center;"><span class="et_pb_fullwidth_header_subhead">Certified Public Accountants</span></p>
+				</div>
 			</div>
-		</div> -->
+		</div>
+	</header>
+	<?php
+		if (is_page('homepage')){
+			echo do_shortcode('[rev_slider alias="homepage"]');
+		}
+	?>
+	
