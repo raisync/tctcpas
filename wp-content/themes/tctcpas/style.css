@@ -186,6 +186,9 @@ figcaption.figcap {
 	color: inherit;
 }
 
+/******************************************************************************************
+*	  									RESPONSIVE
+*******************************************************************************************/
 @media screen and (max-width: 1100px) {
 	img.feats {
     	display: block;
@@ -254,35 +257,8 @@ figcaption.figcap {
 		line-height: 150% !important;
 		display: block !important;
 	}
+}
 
-	/*		   SLIDER
-	___________________________*/
-	/*#slide-1-layer-1 {
-		outline: 1px solid red;
-	}
+@media screen and (max-width: 1235px) {
 
-	#slide-1-layer-5 {
-		outline: 1px solid red;
-	}
-
-	#slide-1-layer-6 {
-		outline: 1px solid red;
-	}
-
-	#slide-1-layer-7 {
-		outline: 1px solid red;
-	}
-
-	#slide-1-layer-8 span {
-		font-size: 16px;
-	}
-
-	#slide-1-layer-8 {
-		outline: 1px solid red;
-	}
-
-	#slide-1-layer-9 {
-		outline: 1px solid red;
-	}*/
-	/*_________________________*/
 }
