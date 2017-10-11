@@ -12,11 +12,11 @@
 @import url("../Chameleon/src");
 @import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 
-/** {
+{
   background: #000 !important;
   color: #0f0 !important;
   outline: solid #f00 1px !important;
-}*/
+}
 
 html, body {
 	margin: 0px;
@@ -24,7 +24,9 @@ html, body {
 	border: 0px;
 }
 
-.hide-this {  display: none !important; }
+.hide-this { 
+	display: none !important;
+}
 
 #header { 
 	background: transparent no-repeat center top;
@@ -226,6 +228,14 @@ nav.circles {
     width: 50px;
     vertical-align: middle;
     margin: auto;
+}
+
+div.fl-col-group.fl-node-59d4ce2f27ddf {
+	display: none !important;
+}
+
+.slider {
+	margin-top: -200px;
 }
 /******************************************************************************************
 *	  									RESPONSIVE

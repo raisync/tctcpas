@@ -40,9 +40,11 @@
 			</div>
 		</div>
 	</header>
-	<?php
-		if (is_page('homepage')){
-			echo do_shortcode('[rev_slider alias="homepage"]');
-		}
-	?>
+	<div class="slider">
+		<?php
+			if (is_page('homepage')){
+				echo do_shortcode('[rev_slider alias="homepage"]');
+			}
+		?>
+	</div>
 	
