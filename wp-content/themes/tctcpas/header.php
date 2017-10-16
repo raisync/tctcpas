@@ -6,12 +6,11 @@
 	<?php elegant_keywords(); ?>
 	<?php elegant_canonical(); ?>
 
+
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/colorpicker.css" type="text/css" media="screen" />
-
 	<link href='//fonts.googleapis.com/css?family=Droid+Sans:regular,bold' rel='stylesheet' type='text/css'/>
 	<link href='//fonts.googleapis.com/css?family=Kreon:light,regular' rel='stylesheet' type='text/css'/>
-
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
 	<meta charset="utf-8">
@@ -19,7 +18,6 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
 	<script type="text/javascript">
 		document.documentElement.className = 'js';
 	</script>
@@ -31,6 +29,16 @@
 <body <?php body_class(); ?>>
 	<?php do_action('et_header_top'); ?>
 	<header id="header" style="background-image: url('http://localhost/tct/wp-content/uploads/2017/10/header-bg.png');">
+		<div class="m1 menu">
+			<div id="menu-center">
+				<ul class="click crsl">
+					<li><a class="page1 dot active"></a></li>
+					<li><a class="page2 dot"></a></li>
+					<li><a class="page3 dot"></a></li>
+					<li><a class="page4 dot"></a></li>
+				</ul>
+			</div>
+		</div>
 		<div id="container">
 			<div class="ulo">
 				<div class="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_center header-content et_pb_text_0">
@@ -42,9 +50,48 @@
 	</header>
 	<div class="slider">
 		<?php
-			if (is_page('homepage')){
-				echo do_shortcode('[rev_slider alias="homepage"]');
-			}
+		if (is_page('homepage')){
+			echo do_shortcode('[rev_slider alias="homepage"]');
+		}
 		?>
 	</div>
-	
+	<script type="text/javascript">
+		$(".smoothScroll").click(function() {
+			$('html, body').animate({
+				scrollTop: $("#contacts").offset().top
+			}, 1000);
+		});
+	</script>
+	<script type="text/javascript">
+		$(".page1").click(function() {
+			$('html, body').animate({
+				scrollTop: $("#header").offset().top
+			}, 1000);
+		});
+		$(".page2").click(function() {
+			$('html, body').animate({
+				scrollTop: $("#service").offset().top
+			}, 1000);
+		});
+
+		$(".page3").click(function() {
+			$('html, body').animate({
+				scrollTop: $("#partners").offset().top
+			}, 1000);
+		});
+
+		$(".page4").click(function() {
+			$('html, body').animate({
+				scrollTop: $("#contacts").offset().top
+			}, 1000);
+		});
+		
+	</script>
+	<!-- point active carousel -->
+	<script type="text/javascript">
+		$('li a').click(function(e) {
+			e.preventDefault();
+			$('a').removeClass('active');
+			$(this).addClass('active');
+		});
+	</script>

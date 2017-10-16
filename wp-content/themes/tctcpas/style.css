@@ -202,34 +202,6 @@ figcaption.figcap {
 	color: inherit;
 }
 
-.carousel-indicators li:hover {
-	background: white;
-}
-
-ol.carousel-indicators {
-    top: 40%;
-    bottom: 0;
-    right: 28px !important;
-    left: 0;
-    margin: auto;
-    position: fixed;
-    width: 100%;
-    text-align: right;
-    display: inline-grid;
-    padding: 0px 12px 150px 0px;
-}
-
-nav.circles {
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    display: flex;
-    right: 0;
-    width: 50px;
-    vertical-align: middle;
-    margin: auto;
-}
-
 div.fl-col-group.fl-node-59d4ce2f27ddf {
 	display: none !important;
 }
@@ -237,6 +209,47 @@ div.fl-col-group.fl-node-59d4ce2f27ddf {
 .slider {
 	margin-top: -200px;
 }
+
+.click a {
+	text-decoration: none;
+	color: red;
+}
+
+.click a:focus {
+	text-decoration: none;
+	color: red;
+}
+
+ul.click li {
+ 	list-style: none;
+}
+
+.click {
+ position: fixed;
+ color: red;
+ right: 0;
+ top: 40%;
+ padding: 8px;
+ background: rgba(12, 21, 34, 0.70);
+ border-top-left-radius: 5px;
+ border-bottom-left-radius: 5px;"
+}
+
+.dot {
+  cursor: pointer;
+  height: 6px;
+  width: 6px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: red;
+}
+
 /******************************************************************************************
 *	  									RESPONSIVE
 *******************************************************************************************/

@@ -1,7 +1,7 @@
 			<footer>
 				<div class="topFoot pad21">
-					<a href="#">Terms of Use</a>
-					<a href="#">Privacy Policy</a>
+					<a href="<?php get_home_url() ?>/tct/terms-of-use">Terms of Use</a>
+					<a href="<?php get_home_url() ?>/tct/privary-policy">Privacy Policy</a>
 				</div>
 				<div class="botFoot pad21">
 					<div class="col-left">
